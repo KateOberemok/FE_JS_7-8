@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <title>Document</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> -->
+  <script type="text/javascript" src="js/script.js"></script>
+
+
+</head>
+<body>
+<form method="get" id="userForm">
+<div>
+ 
+    <label for="firstname" class="hint"> Name
+    </label>  
+      <input  class="select" type="select" name="firstname" id="firstname" title="Enter your name" onkeyup='checkParams()'>
+</div>
+<div>
+    <label for="secondname" class="hint"> Secondname
+    </label> 
+    <input class="select" type="select" name="secondname" id="secondname" title="Enter your secondname" onkeyup='checkParams()'>
+</div>
+<div>
+    <label for="address" class="hint"> Address
+    </label> 
+    <input class="select"  type="select" name="address" id="address" title="Enter your address" onkeyup='checkParams()'>
+</div>
+<div>
+  <input type="button" name="submit" id="submit" value="Submit"  disabled>
+</div>
+</form>
+</body>
+</html>

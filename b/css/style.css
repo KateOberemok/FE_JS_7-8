@@ -1,0 +1,37 @@
+#userForm {
+	width: 500px;
+	height: 180px;
+	margin: 50px auto;
+	background-color: #eee;
+	padding: 20px;
+}
+#submit {
+	height: 40px;
+	width: 100px;
+	font-size: 18px;
+	display: block;
+	margin: 20px auto;
+}
+.hint {
+	font-size: 18px;
+	display: inline-block;
+	width: 200px;
+	margin: 10px;
+}
+
+.tooltip{
+position:absolute;
+z-index:999;
+left:-9999px;
+background-color:#dedede;
+padding:5px;
+border:1px solid #fff;
+width:250px;
+}
+.tooltip p{
+margin:0;
+padding:0;
+color:#fff;
+background-color:#222;
+padding:2px 7px;
+}
